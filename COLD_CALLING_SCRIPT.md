@@ -1,79 +1,54 @@
-# Cold Calling Script for $800 Websites
+# Ultra-Direct Script for Busy Contractors
 
-## Opening (10 seconds to hook them)
-*"Hi [Name], this is [Your Name]. I was looking on Google for local roofing contractors and found your Google Business profile. I noticed you don't have a website, so I actually went ahead and built one for you to show you what it could look like. Can I send you the link real quick?"*
+## Text-First Approach (RECOMMENDED)
 
-**If they seem interested:** *"Great! I'm texting you the link right now. It's got your company name and everything - take a look."*
+### **Text Message (No Introduction Needed):**
+```
+[Company Name] - I built you a website:
+[company-name].netlify.app
 
-**If they're hesitant:** *"I know this sounds weird, but I do this for contractors who have great Google reviews but no website. It takes 30 seconds to look at - what's your cell number?"*
+Calling in 2 minutes.
+```
 
-## The Demo Hook (30 seconds)
-*"Okay, you should have the link now - it's got [Company Name] right at the top. Are you looking at it?"*
+### **Follow-Up Call (10 seconds max):**
+*"Did you see it? $800 and you keep it. Yes or no?"*
 
-*"So I took your Google Business info and built this professional website around it. See how clean and professional this looks compared to having no website at all?"*
+---
 
-**Key Demo Points:**
-1. *"This is what customers see when they Google your company name now vs. just your basic Google listing"*
-2. *"Check it out on your phone too - it looks perfect on mobile where most customers will see it"*
-3. *"I put in some sample project photos, but obviously we'd use your actual work"*
-4. *"See how easy it is for customers to call you? That's the whole point"*
+## If You Must Cold Call First:
 
-## Value Proposition (45 seconds)
-*"Here's the thing - you've got great reviews on Google, but when people want to learn more about you, there's nowhere to send them. This website changes that completely:*
-- *Now when someone Googles '[Company Name]', they see a professional website*
-- *Customers can see your work, read about your experience, and contact you easily*
-- *You look like the established, premium contractor vs. guys with no online presence*
-- *It works 24/7 even when you're not answering your phone*
+### **Opening (3 seconds):**
+*"[Name]? I built you a website. Want to see it?"*
 
-*I already did the work - it's sitting there ready to go live for you."*
+**They'll ask "Who is this?" or "How much?"**
 
-## Address Common Objections
+*"I'm texting the link now. It's $800. Look at it first."*
 
-**"I don't need a website"**
-*"Look, I can see from your Google reviews that you do great work and customers love you. But when they Google your company name, what do they find? Just a basic Google listing. This gives them somewhere to go to actually learn about your company and see your professionalism."*
+## After They See The Website (5 seconds)
+*"Looks good, right? $800 and it stays up forever. Deal?"*
 
-**"How much does this cost?"**
-*"Here's the thing - I already built it. The website is done. All I need to do is make it live with your domain name. The investment is $800 total. Compare that to hiring a web designer who'll charge you $2000+ and take 2-3 months."*
+## If They Hesitate:
+*"It's built. Your name's on it. Take it or I give it to another roofer."*
 
-**"I need to think about it"**
-*"I understand, but think about this - the website exists right now. I can have it live under your company name by tomorrow. Every day you wait is another day customers are Googling you and finding basically nothing. What's to think about?"*
+## Netlify Domain Strategy:
+**Don't mention custom domains unless they ask!**
+- Most contractors won't care about domains
+- `johnsonroofing.netlify.app` looks professional enough
+- Saves you time and money
+- If they want custom domain, charge extra $200
 
-**"Why did you build this without asking?"**
-*"Because I could see you have a solid business with good reviews, but no web presence. I do this for a few select contractors each month. The website's already done - makes sense to use it, right?"*
+## Ultra-Quick Objection Responses:
 
-**"I'm not tech-savvy"**
-*"Perfect - that's exactly why I do this. You don't touch anything technical. I handle the domain, hosting, everything. You just tell customers to visit your website and watch them be impressed."*
+**"I don't need a website"** → *"Your customers do."*
+**"I need to think about it"** → *"Nothing to think about. It's done."*
+**"Who are you?"** → *"Guy who built your website. Want it or not?"*
+**"I'm not tech-savvy"** → *"You don't do anything. I handle it."*
 
-## The Close
-*"Look, the hard work is done - the website exists and looks great. I can have it live under [CompanyName].com by tomorrow. The investment is $800 total, and honestly, this will pay for itself with the first customer who finds you online instead of your competitor. Should I get this live for you?"*
+## Payment:
+*"$800. Venmo, Zelle, or card? It stays live forever."*
 
-**If they hesitate:**
-*"Let me ask you this - if a potential customer Googles both you and your competitor, and you have a professional website while they don't, who do you think gets the call? The website is already built - we're just making it official."*
-
-**Alternative close:**
-*"I'll tell you what - I only do this for 2-3 contractors per month because I want to give each one personal attention. I can hold this website for [Company Name] until Friday, but after that I'll offer it to another roofer in the area. Fair enough?"*
-
-## Closing Questions
-- *"What's the best email to send you the details?"*
-- *"Do you prefer to pay by check or card when it's ready?"*
-- *"Any specific photos of your work you want featured?"*
-
-## Money Collection
-*"Perfect! I'll need $400 to get started today, and the remaining $400 when the site goes live tomorrow. That work for you?"*
-
-**Payment Options:**
-- Venmo/Zelle for speed
-- Check if local
-- Card over phone
-
-## Follow-up Commitments
-*"Great! You'll get:*
-- *Website live in 24 hours*
-- *Text with the live link when ready*
-- *Simple instructions if you ever need changes*
-- *My number for any questions*
-
-*Sound good? Let's make [Company Name] look like the premium contractor you are."*
+## If They Say Yes:
+*"Texting you payment info. Website stays up as long as you want."*
 
 ## Key Success Principles
 
