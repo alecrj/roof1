@@ -528,6 +528,14 @@
             letter-spacing: 0.5px;
         }
 
+        .review-source {
+            font-size: 12px;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 8px;
+            opacity: 0.8;
+        }
+
         .rating {
             color: var(--accent-yellow);
             margin-bottom: 20px;
@@ -1176,6 +1184,110 @@
                     <p style="color: var(--medium-gray); margin-bottom: 20px; font-size: 16px;">Interested in seeing more of our completed projects?</p>
                     <a href="#" class="btn btn-accent" data-page="contact">Request Project Portfolio</a>
                 </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- REVIEWS PAGE -->
+    <div id="reviews" class="page">
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Clients Say</h2>
+                    <p>Read real reviews from satisfied customers throughout North Florida who trust us with their roofing projects.</p>
+                </div>
+
+                <!-- Google Reviews Display -->
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <div class="rating">★★★★★</div>
+                        <div class="testimonial-text">The crew was very polite and responsive. They did a very professional looking job. The attention to detail was amazing. They take a little longer than some of the large roofing companies but the end quality is worth the wait.</div>
+                        <div class="testimonial-author">— Mandi R., Tallahassee</div>
+                        <div class="review-source">Google Review</div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="rating">★★★★★</div>
+                        <div class="testimonial-text">ESI was so friendly and easy to work with! From the office staff to the workers everyone was professional and thorough. Once the roof repair was completed it rained and they called to make sure there were no leaks.</div>
+                        <div class="testimonial-author">— Jennifer L., Quincy</div>
+                        <div class="review-source">Google Review</div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="rating">★★★★★</div>
+                        <div class="testimonial-text">Always provides the best service period. Explains the process so you understand what is going to happen and stands behind their work. Would have no one else perform repairs on my home.</div>
+                        <div class="testimonial-author">— Sterling A., Gadsden County</div>
+                        <div class="review-source">Google Review</div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="rating">★★★★★</div>
+                        <div class="testimonial-text">Great company. The roof looks amazing. Workers were so nice to my 90-year-old mom. They called after it rained to make sure there were no leaks. Outstanding service!</div>
+                        <div class="testimonial-author">— Vicky R., Tallahassee</div>
+                        <div class="review-source">Google Review</div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="rating">★★★★★</div>
+                        <div class="testimonial-text">Excellent workmanship and customer service. They explained everything clearly and completed the work on time. Highly recommend for any roofing needs.</div>
+                        <div class="testimonial-author">— Michael T., Havana</div>
+                        <div class="review-source">Google Review</div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="rating">★★★★★</div>
+                        <div class="testimonial-text">Professional team from start to finish. Fair pricing, quality materials, and they cleaned up everything perfectly. You won't find better roofers in North Florida.</div>
+                        <div class="testimonial-author">— Sarah M., Midway</div>
+                        <div class="review-source">Google Review</div>
+                    </div>
+                </div>
+
+                <!-- Review Submission Section -->
+                <section class="section" style="padding: 80px 0;">
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <h3 style="color: var(--dark-gray); margin-bottom: 24px; font-size: 24px;">Leave Us a Review</h3>
+                            <p style="margin-bottom: 24px; line-height: 1.7; color: var(--medium-gray); font-size: 16px;">
+                                Your feedback helps us serve you better and helps other homeowners find quality roofing services. We appreciate you taking the time to share your experience.
+                            </p>
+                            <div class="contact-item">
+                                <h4>Google Reviews</h4>
+                                <p>Share your experience on Google - the most visible platform for local businesses</p>
+                                <a href="https://search.google.com/local/writereview?placeid=ChIJXXXXXXXXXXXXXXXXXXXX" class="btn btn-primary" target="_blank" style="margin-top: 12px;">Write Google Review</a>
+                            </div>
+                            <div class="contact-item">
+                                <h4>Facebook Reviews</h4>
+                                <p>Leave a review on our Facebook business page</p>
+                                <a href="https://www.facebook.com/exteriorspecialties/reviews" class="btn btn-accent" target="_blank" style="margin-top: 12px;">Facebook Review</a>
+                            </div>
+                        </div>
+                        <div class="contact-form">
+                            <h3 style="color: var(--dark-gray); margin-bottom: 24px; font-size: 24px;">Send Private Feedback</h3>
+                            <p style="margin-bottom: 24px; line-height: 1.7; color: var(--medium-gray); font-size: 16px;">
+                                Prefer to share feedback privately? Send us a message and we'll respond promptly.
+                            </p>
+                            <div class="form-group">
+                                <label for="reviewName">Your Name</label>
+                                <input type="text" id="reviewName" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reviewEmail">Email Address</label>
+                                <input type="email" id="reviewEmail" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reviewRating">Overall Rating</label>
+                                <select id="reviewRating" name="rating" required>
+                                    <option value="">Select Rating</option>
+                                    <option value="5">★★★★★ Excellent</option>
+                                    <option value="4">★★★★☆ Very Good</option>
+                                    <option value="3">★★★☆☆ Good</option>
+                                    <option value="2">★★☆☆☆ Fair</option>
+                                    <option value="1">★☆☆☆☆ Poor</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="reviewMessage">Your Feedback</label>
+                                <textarea id="reviewMessage" name="message" rows="5" placeholder="Tell us about your experience with our roofing services..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Feedback</button>
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
     </div>
