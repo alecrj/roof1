@@ -679,8 +679,8 @@
 
         @media (max-width: 768px) {
             .booking-options {
-                grid-template-columns: 1fr;
-                gap: 20px;
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
             }
         }
 
@@ -904,8 +904,8 @@
                 <li><a href="#" class="nav-link" data-page="services">Services</a></li>
                 <li><a href="#" class="nav-link" data-page="about">About</a></li>
                 <li><a href="#" class="nav-link" data-page="gallery">Gallery</a></li>
-                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
-                <li><a href="#" class="nav-link nav-cta" data-page="contact">Get Estimate</a></li>
+                <li><a href="#" class="nav-link" data-page="reviews">Reviews</a></li>
+                <li><a href="#" class="nav-link nav-cta" data-page="contact">Contact</a></li>
             </ul>
             <button class="mobile-menu">☰</button>
         </nav>
@@ -919,7 +919,7 @@
                     <h1>Roofing Excellence Delivered</h1>
                     <p class="subtitle">North Florida's most trusted roofing specialists, combining three decades of expertise with premium materials and craftsmanship that protects your investment for generations.</p>
                     <div class="cta-group">
-                        <a href="#" class="btn btn-primary" data-page="booking">Get Free Estimate</a>
+                        <a href="#" class="btn btn-primary" data-page="contact">Contact Us</a>
                         <a href="tel:(850) 556-4663" class="btn btn-secondary">Call (850) 556-4663</a>
                     </div>
                 </div>
@@ -1186,7 +1186,7 @@
             <div class="container">
                 <div class="section-header">
                     <h2>Let's Discuss Your Project</h2>
-                    <p>Ready to experience premium quality? Contact our team for your complimentary consultation and detailed project estimate.</p>
+                    <p>Ready to experience premium quality? Contact our team to discuss your roofing project.</p>
                 </div>
                 <div class="contact-grid">
                     <div class="contact-info">
@@ -1220,62 +1220,18 @@
                             <p>24/7 emergency response available for storm damage and urgent repairs throughout our service area</p>
                         </div>
                     </div>
-                    <div class="contact-simple">
-                        <h3 style="color: var(--dark-gray); margin-bottom: 32px; font-size: 20px;">Get Your Free Estimate</h3>
-                        <div class="contact-methods">
-                            <div class="contact-method">
-                                <div class="contact-icon">📞</div>
-                                <h4>Call Now</h4>
-                                <p>Speak with our experts immediately</p>
+                    <div class="contact-form">
+                        <h3 style="color: var(--dark-gray); margin-bottom: 32px; font-size: 20px;">Contact Us</h3>
+                        <div class="booking-options" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+                            <div class="booking-option" style="padding: 32px 24px; background: var(--light-gray); border-radius: var(--border-radius-large); text-align: center;">
+                                <h4 style="color: var(--dark-gray); font-size: 18px; margin-bottom: 12px; font-weight: 600;">📞 Call Now</h4>
+                                <p style="color: var(--text-light); margin-bottom: 20px; font-size: 14px;">Speak with our experts immediately</p>
                                 <a href="tel:(850) 556-4663" class="btn btn-primary">(850) 556-4663</a>
                             </div>
-                            <div class="contact-method">
-                                <div class="contact-icon">📧</div>
-                                <h4>Email Us</h4>
-                                <p>Send us your project details</p>
+                            <div class="booking-option" style="padding: 32px 24px; background: var(--light-gray); border-radius: var(--border-radius-large); text-align: center;">
+                                <h4 style="color: var(--dark-gray); font-size: 18px; margin-bottom: 12px; font-weight: 600;">📧 Email Us</h4>
+                                <p style="color: var(--text-light); margin-bottom: 20px; font-size: 14px;">Send us your project details</p>
                                 <a href="mailto:info@exteriorspecialties.com" class="btn btn-accent">Send Email</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <!-- BOOKING PAGE -->
-    <div id="booking" class="page">
-        <section class="section calendar-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Get Your Free Estimate</h2>
-                    <p>Ready to start your roofing project? Contact us today for a complimentary consultation and detailed estimate.</p>
-                </div>
-                <div class="calendar-container">
-                    <div class="integration-container">
-                        <div class="booking-info">
-                            <h3 style="color: var(--dark-gray); margin-bottom: 24px; font-size: 28px;">Contact Us Today</h3>
-                            <p style="color: var(--medium-gray); font-size: 18px; line-height: 1.6; margin-bottom: 40px;">
-                                Call us directly to schedule your free consultation and detailed estimate. We're available during business hours and offer 24/7 emergency services.
-                            </p>
-                            <div class="booking-options">
-                                <div class="booking-option">
-                                    <h4>📞 Call for Immediate Service</h4>
-                                    <p>Speak with our roofing experts</p>
-                                    <a href="tel:(850) 556-4663" class="btn btn-primary" style="font-size: 18px; padding: 18px 32px;">(850) 556-4663</a>
-                                </div>
-                                <div class="booking-option">
-                                    <h4>📧 Email Your Project Details</h4>
-                                    <p>Send us information about your needs</p>
-                                    <a href="mailto:info@exteriorspecialties.com" class="btn btn-accent" style="font-size: 18px; padding: 18px 32px;">Send Email</a>
-                                </div>
-                            </div>
-                            <div style="text-align: center; margin-top: 40px; padding: 24px; background: var(--off-white); border-radius: var(--border-radius);">
-                                <h4 style="color: var(--dark-gray); margin-bottom: 12px;">Business Hours</h4>
-                                <p style="color: var(--text-light); font-size: 16px; margin: 0;">
-                                    Monday - Friday: 7:00 AM - 6:00 PM<br>
-                                    Saturday: 8:00 AM - 4:00 PM<br>
-                                    <strong>24/7 Emergency Service Available</strong>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -1470,7 +1426,7 @@
                     // For demo purposes - show success message
                     // In production, this would send to your backend/email service
                     setTimeout(() => {
-                        showAlert('Thank you! We\'ll contact you within 24 hours to schedule your free estimate.', 'success');
+                        showAlert('Thank you! We\'ll contact you within 24 hours to discuss your project.', 'success');
                         contactForm.reset();
                         submitButton.textContent = originalText;
                         submitButton.disabled = false;
