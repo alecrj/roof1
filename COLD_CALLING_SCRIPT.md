@@ -1,5 +1,11 @@
 # Professional Cold Calling Script
 
+## Your Proven Text Message (Updated):
+
+```
+Hey there, my name is Alec I'm a web developer. I saw you guys have great Google reviews but no website so I went ahead and built you one [link]. If you're interested in keeping it and adding your branding let's hop on a call! Thanks, Alec
+```
+
 ## Text-First Strategy Analysis:
 
 **YES, text-first absolutely works!** Here's why:
@@ -8,7 +14,7 @@
 - Shows initiative and builds immediate credibility
 - Less intrusive than cold calling
 
-## Recommended Text Messages:
+## Alternative Text Message Variations:
 
 ### **Option 1: Professional Introduction**
 ```
@@ -34,16 +40,19 @@ Noticed you have great reviews but customers can't find info about your business
 Interested in chatting? - Alec, Web Developer
 ```
 
-## Cold Calling Script (If calling after text):
+## Cold Calling Script (After sending text):
 
-### **Opening:**
-*"Hi [Name], this is Alec. I sent you a text about the website I built for [Company Name]. Did you get a chance to check it out?"*
+### **Opening (Your Original Approach):**
+*"Hey [Name], this is Alec. I just sent you a text about the website I built for [Company Name]. Did you get a chance to look at it?"*
 
 ### **If they saw it:**
-*"What did you think? Pretty clean, right? I specialize in helping local contractors like yourself get more visibility online."*
+*"Awesome! What did you think? I noticed you guys have great Google reviews but no website, so I went ahead and built you one to show what that could look like. The goal is to give potential customers somewhere professional to go when they find your business."*
 
 ### **If they didn't see it:**
-*"No worries, I can resend it. Basically, I noticed you guys have great reviews but no website, so I put together a professional site to show what that could look like for your business."*
+*"No problem at all - sometimes texts get filtered. Let me tell you what I sent: I'm a web developer and I noticed [Company Name] has fantastic Google reviews but when people search for you online, they don't really find much information about your business. So I went ahead and built you a professional website. If you have a phone or computer nearby, I can give you the web address to check it out."*
+
+### **Alternative Opening (If they didn't get text):**
+*"Hi [Name], this is Alec, I'm a web developer. I was looking on Google and saw you have great reviews but no website, so I made one for [Company Name] to show you what that could look like. Do you have a minute to take a look?"*
 
 ## Value Proposition:
 *"Here's the thing - you're already successful, but you're missing out on customers who research online before calling. This gives them somewhere to go to see you're the real deal."*
