@@ -1,54 +1,78 @@
-# Ultra-Direct Script for Busy Contractors
+# Professional Cold Calling Script
 
-## Text-First Approach (RECOMMENDED)
+## Text-First Strategy Analysis:
 
-### **Text Message (No Introduction Needed):**
+**YES, text-first absolutely works!** Here's why:
+- Contractors are hands-on people who respond to visual proof
+- Texts get read (98% open rate vs 2% cold calls)
+- Shows initiative and builds immediate credibility
+- Less intrusive than cold calling
+
+## Recommended Text Messages:
+
+### **Option 1: Professional Introduction**
 ```
-[Company Name] - I built you a website:
-[company-name].netlify.app
+Hi [Name], this is Alec, a web developer. I saw [Company Name] has great Google reviews but no website. I built you one as an example of what we could do. Take a look: [link]
 
-Calling in 2 minutes.
+Would love to chat if you're interested. Thanks!
 ```
 
-### **Follow-Up Call (10 seconds max):**
-*"Did you see it? $800 and you keep it. Yes or no?"*
+### **Option 2: Direct Value**
+```
+[Name] - I'm a web developer who helps local contractors get more leads online. Built a sample website for [Company Name]: [link]
 
----
+If you like it, let's talk. If not, no worries!
+- Alec
+```
 
-## If You Must Cold Call First:
+### **Option 3: Problem/Solution**
+```
+Hi [Name] from [Company Name],
 
-### **Opening (3 seconds):**
-*"[Name]? I built you a website. Want to see it?"*
+Noticed you have great reviews but customers can't find info about your business online. Created this website to show what that could look like: [link]
 
-**They'll ask "Who is this?" or "How much?"**
+Interested in chatting? - Alec, Web Developer
+```
 
-*"I'm texting the link now. It's $800. Look at it first."*
+## Cold Calling Script (If calling after text):
 
-## After They See The Website (5 seconds)
-*"Looks good, right? $800 and it stays up forever. Deal?"*
+### **Opening:**
+*"Hi [Name], this is Alec. I sent you a text about the website I built for [Company Name]. Did you get a chance to check it out?"*
 
-## If They Hesitate:
-*"It's built. Your name's on it. Take it or I give it to another roofer."*
+### **If they saw it:**
+*"What did you think? Pretty clean, right? I specialize in helping local contractors like yourself get more visibility online."*
 
-## Netlify Domain Strategy:
-**Don't mention custom domains unless they ask!**
-- Most contractors won't care about domains
-- `johnsonroofing.netlify.app` looks professional enough
-- Saves you time and money
-- If they want custom domain, charge extra $200
+### **If they didn't see it:**
+*"No worries, I can resend it. Basically, I noticed you guys have great reviews but no website, so I put together a professional site to show what that could look like for your business."*
 
-## Ultra-Quick Objection Responses:
+## Value Proposition:
+*"Here's the thing - you're already successful, but you're missing out on customers who research online before calling. This gives them somewhere to go to see you're the real deal."*
 
-**"I don't need a website"** → *"Your customers do."*
-**"I need to think about it"** → *"Nothing to think about. It's done."*
-**"Who are you?"** → *"Guy who built your website. Want it or not?"*
-**"I'm not tech-savvy"** → *"You don't do anything. I handle it."*
+## Pricing Discussion:
+*"If you like what you see, it's $800 to make it yours. That includes hosting, mobile optimization, everything. Most web designers charge 2-3x that and take months to deliver."*
 
-## Payment:
-*"$800. Venmo, Zelle, or card? It stays live forever."*
+## Addressing Hesitation:
+*"I get it - you probably don't think about websites much. But your customers do. When they Google your company name, this is what they'd see instead of just a basic listing."*
 
-## If They Say Yes:
-*"Texting you payment info. Website stays up as long as you want."*
+## Professional Close:
+*"Look, I built it because I could see you run a quality business. If you want it, great. If not, no hard feelings. What do you think?"*
+
+## Objection Handling:
+
+**"I don't need a website"**
+*"I understand - you're busy running the business. But think about it this way: when someone refers you, what's the first thing people do? They Google your company name. This just makes sure they find something professional."*
+
+**"How do I know you're legit?"**
+*"Fair question. I've built websites for contractors across Florida. Happy to show you examples or put you in touch with references. I'm local and this is what I do full-time."*
+
+**"I need to think about it"**
+*"Absolutely, it's a business decision. The website will be sitting there either way. Want me to follow up with you next week?"*
+
+**"Can you make changes if I don't like something?"**
+*"Of course. I include basic updates and can customize anything you want. The goal is to make you happy with it."*
+
+## Next Steps:
+*"Perfect! I'll get everything set up and send you the payment details. You'll have the live website within 24 hours. Sound good?"*
 
 ## Key Success Principles
 
