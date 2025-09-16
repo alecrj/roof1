@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exterior Specialties Inc | GAF Master Elite Roofers | Tallahassee, FL</title>
+    <meta name="description" content="GAF Master Elite President's Club roofing contractors in Tallahassee, FL. Expert residential & commercial roofing with premium warranties since 1985.">
+    
+    <!-- Calendly CSS -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-blue: #007AFF;
+            --secondary-blue: #0056CC;
+            --accent-yellow: #FFD60A;
+            --warning-yellow: #FF9F0A;
+            --pure-white: #FFFFFF;
+            --off-white: #F9F9F9;
+            --light-gray: #F2F2F7;
+            --medium-gray: #8E8E93;
+            --dark-gray: #1D1D1F;
+            --border-light: #D1D1D6;
+            --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.1);
+            --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.07);
+            --shadow-large: 0 25px 50px rgba(0, 0, 0, 0.15);
+            --border-radius: 12px;
+            --border-radius-large: 20px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            font-weight: 400;
+            background: var(--pure-white);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navigation - Apple Style */
+        header {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 0.5px solid var(--border-light);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            height: 64px;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--dark-gray);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--dark-gray);
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            transition: var(--transition);
+            position: relative;
+            padding: 8px 0;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-blue);
+        }
+
+        .nav-links a.active {
+            color: var(--primary-blue);
+            font-weight: 500;
+        }
+
+        .nav-cta {
+            background: var(--primary-blue);
+            color: var(--pure-white) !important;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: var(--transition);
+            font-size: 14px;
+        }
+
+        .nav-cta:hover {
+            background: var(--secondary-blue);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .mobile-menu {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            color: var(--dark-gray);
+            padding: 8px;
+        }
+
+        /* Page Management */
+        .page {
+            display: none;
+            min-height: 100vh;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--pure-white) 0%, var(--off-white) 100%);
+            padding: 140px 0 100px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse at center, var(--primary-blue) 0%, transparent 70%);
+            opacity: 0.03;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 8vw, 64px);
+            font-weight: 700;
+            margin-bottom: 24px;
+            line-height: 1.1;
+            letter-spacing: -2px;
+            background: linear-gradient(135deg, var(--dark-gray) 0%, var(--primary-blue) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero .subtitle {
+            font-size: 20px;
+            margin-bottom: 40px;
+            color: var(--medium-gray);
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 16px 32px;
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            min-width: 160px;
+        }
+
+        .btn-primary {
+            background: var(--primary-blue);
+            color: var(--pure-white);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .btn-primary:hover {
+            background: var(--secondary-blue);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-large);
+        }
+
+        .btn-secondary {
+            background: var(--pure-white);
+            color: var(--primary-blue);
+            border: 1px solid var(--border-light);
+        }
+
+        .btn-secondary:hover {
+            background: var(--light-gray);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .btn-accent {
+            background: var(--accent-yellow);
+            color: var(--dark-gray);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .btn-accent:hover {
+            background: var(--warning-yellow);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-large);
+        }
+
+        /* Sections */
+        .section {
+            padding: 100px 0;
+        }
+
+        .section.alternate {
+            background: var(--light-gray);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .section-header h2 {
+            font-size: clamp(32px, 6vw, 48px);
+            color: var(--dark-gray);
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            line-height: 1.2;
+        }
+
+        .section-header p {
+            font-size: 18px;
+            color: var(--medium-gray);
+            line-height: 1.6;
+            font-weight: 400;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--pure-white);
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--border-light);
+            transition: var(--transition);
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-large);
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+        }
+
+        .service-card {
+            padding: 40px 32px;
+            text-align: left;
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 24px;
+            color: var(--pure-white);
+            font-weight: 600;
+        }
+
+        .service-card h3 {
+            color: var(--dark-gray);
+            margin-bottom: 16px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        .service-card p {
+            color: var(--medium-gray);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 40px 32px;
+            background: var(--pure-white);
+            border-radius: var(--border-radius-large);
+            border: 1px solid var(--border-light);
+            transition: var(--transition);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .feature-number {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--accent-yellow), var(--warning-yellow));
+            color: var(--dark-gray);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .feature-card h3 {
+            color: var(--dark-gray);
+            margin-bottom: 16px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .feature-card p {
+            color: var(--medium-gray);
+            line-height: 1.5;
+            font-size: 16px;
+        }
+
+        /* Business Info Section */
+        .business-info {
+            background: var(--primary-blue);
+            color: var(--pure-white);
+            text-align: center;
+        }
+
+        .business-info .section-header h2 {
+            color: var(--pure-white);
+        }
+
+        .business-info .section-header p {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .business-photo {
+            max-width: 600px;
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--shadow-large);
+            margin: 0 auto;
+        }
+
+        /* GAF Certification Badge */
+        .gaf-section {
+            background: var(--accent-yellow);
+            color: var(--dark-gray);
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .gaf-badge {
+            max-width: 200px;
+            height: auto;
+            margin: 0 auto 24px;
+        }
+
+        /* Testimonials */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+        }
+
+        .testimonial {
+            background: var(--pure-white);
+            padding: 40px 32px;
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--border-light);
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .testimonial:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .testimonial::before {
+            content: '"';
+            position: absolute;
+            top: -20px;
+            left: 32px;
+            font-size: 80px;
+            color: var(--accent-yellow);
+            font-family: Georgia, serif;
+            font-weight: 700;
+        }
+
+        .testimonial-text {
+            font-size: 16px;
+            margin-bottom: 24px;
+            color: var(--dark-gray);
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--primary-blue);
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .rating {
+            color: var(--accent-yellow);
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        /* Contact Forms */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-top: 60px;
+        }
+
+        .contact-info {
+            background: var(--pure-white);
+            padding: 40px 32px;
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--border-light);
+        }
+
+        .contact-item {
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .contact-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .contact-item h4 {
+            color: var(--dark-gray);
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .contact-item p {
+            color: var(--medium-gray);
+            line-height: 1.5;
+            font-size: 14px;
+        }
+
+        .contact-item a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-form {
+            background: var(--pure-white);
+            padding: 40px 32px;
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--border-light);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--dark-gray);
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 16px;
+            border: 1px solid var(--border-light);
+            border-radius: var(--border-radius);
+            font-size: 16px;
+            transition: var(--transition);
+            font-family: inherit;
+            background: var(--pure-white);
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.1);
+        }
+
+        /* Calendar Section */
+        .calendar-section {
+            text-align: center;
+        }
+
+        .calendar-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--pure-white);
+            border-radius: var(--border-radius-large);
+            overflow: hidden;
+            box-shadow: var(--shadow-large);
+            border: 1px solid var(--border-light);
+        }
+
+        /* Gallery */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .gallery-item {
+            aspect-ratio: 4/3;
+            border-radius: var(--border-radius-large);
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            transition: var(--transition);
+            box-shadow: var(--shadow-light);
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.02);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .gallery-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .gallery-placeholder {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--light-gray) 0%, var(--off-white) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--medium-gray);
+            font-weight: 500;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-gray);
+            color: var(--pure-white);
+            padding: 80px 0 40px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-yellow);
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            line-height: 1.6;
+            font-size: 14px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-yellow);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 40px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        /* Alerts */
+        .alert {
+            padding: 16px 20px;
+            border-radius: var(--border-radius);
+            margin-bottom: 20px;
+            display: none;
+            font-size: 14px;
+        }
+
+        .alert.success {
+            background: #D1F2EB;
+            border: 1px solid #A3E4D7;
+            color: #0E5E3E;
+        }
+
+        .alert.error {
+            background: #FADBD8;
+            border: 1px solid #F1948A;
+            color: #A93226;
+        }
+
+        .alert.show {
+            display: block;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(255, 255, 255, 0.95);
+                backdrop-filter: saturate(180%) blur(20px);
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                border-bottom: 1px solid var(--border-light);
+                flex-direction: column;
+                padding: 24px;
+                gap: 16px;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-menu {
+                display: block;
+            }
+
+            .hero {
+                padding: 120px 0 80px;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .cta-group {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .section {
+                padding: 60px 0;
+            }
+
+            .section-header {
+                margin-bottom: 60px;
+            }
+
+            .services-grid,
+            .features-grid,
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Loading States */
+        .loading {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .loading::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            margin: -10px 0 0 -10px;
+            border: 2px solid var(--border-light);
+            border-top-color: var(--primary-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Exterior Specialties</a>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="services">Services</a></li>
+                <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                <li><a href="#" class="nav-link" data-page="gallery">Gallery</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+                <li><a href="#" class="nav-link nav-cta" data-page="booking">Book Consultation</a></li>
+            </ul>
+            <button class="mobile-menu">☰</button>
+        </nav>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page active">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>GAF Master Elite Excellence</h1>
+                    <p class="subtitle">North Florida's premier GAF Master Elite President's Club contractors, delivering uncompromising quality and industry-leading warranties that protect your investment.</p>
+                    <div class="cta-group">
+                        <a href="#" class="btn btn-primary" data-page="booking">Schedule Free Estimate</a>
+                        <a href="tel:(850) 556-4663" class="btn btn-secondary">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gaf-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 style="color: var(--dark-gray);">GAF Master Elite President's Club</h2>
+                    <p style="color: var(--dark-gray); opacity: 0.8;">Less than 3% of roofing contractors achieve this elite status. We deliver the highest quality installations with GAF's strongest warranties.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Choose Excellence</h2>
+                    <p>We combine decades of expertise with GAF's premium products to deliver roofing solutions that exceed expectations.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-number">30+</div>
+                        <h3>Years of Mastery</h3>
+                        <p>Three decades of proven excellence in roofing and exterior construction throughout North Florida.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-number">3%</div>
+                        <h3>Elite Status</h3>
+                        <p>Among the top 3% of contractors nationwide with GAF Master Elite President's Club certification.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-number">24/7</div>
+                        <h3>Emergency Response</h3>
+                        <p>Round-the-clock emergency services for storm damage and urgent repairs when you need us most.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section business-info">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Serving Tallahassee Since 1985</h2>
+                    <p>Located in the heart of North Florida, we've been your neighbors' trusted choice for premium roofing solutions.</p>
+                </div>
+                <img src="https://lh3.googleusercontent.com/p/AF1QipO03Yjg57gGxFK0kqkjzXZtR43NF8dNhl_TxqHb=w800-h600-k-no" alt="Exterior Specialties Inc Building" class="business-photo" loading="lazy">
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Clients Say</h2>
+                    <p>Real experiences from real customers who trust us with their most valuable investment.</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <div class="rating">★★★★★</div>
+                        <div class="testimonial-text">The crew was very polite and responsive. They did a very professional looking job. The attention to detail was amazing. They take a little longer than some of the large roofing companies but the end quality is worth the wait.</div>
+                        <div class="testimonial-author">— Mandi R., Tallahassee</div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="rating">★★★★★</div>
+                        <div class="testimonial-text">ESI was so friendly and easy to work with! From the office staff to the workers everyone was professional and thorough. Once the roof repair was completed it rained and they called to make sure there were no leaks.</div>
+                        <div class="testimonial-author">— Jennifer L., Quincy</div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="rating">★★★★★</div>
+                        <div class="testimonial-text">Always provides the best service period. Explains the process so you understand what is going to happen and stands behind their work. Would have no one else perform repairs on my home.</div>
+                        <div class="testimonial-author">— Sterling A., Gadsden County</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- SERVICES PAGE -->
+    <div id="services" class="page">
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Comprehensive Roofing Solutions</h2>
+                    <p>From emergency repairs to complete roof replacements, we deliver exceptional results with GAF premium materials and expert craftsmanship.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card card">
+                        <div class="service-icon">R</div>
+                        <h3>Complete Roof Systems</h3>
+                        <p>Full roof installations using GAF premium materials with Master Elite warranties. Specializing in insurance claims for hurricane and hail damage with comprehensive coverage.</p>
+                    </div>
+                    <div class="service-card card">
+                        <div class="service-icon">E</div>
+                        <h3>Emergency Repairs</h3>
+                        <p>24/7 emergency response for storm damage, leaks, and urgent repairs. Immediate temporary protection followed by permanent solutions with detailed documentation.</p>
+                    </div>
+                    <div class="service-card card">
+                        <div class="service-icon">S</div>
+                        <h3>Exterior Renovations</h3>
+                        <p>Professional siding installation including HardieBoard, vinyl systems, soffit and fascia repair, trim work, and complete exterior door replacements.</p>
+                    </div>
+                    <div class="service-card card">
+                        <div class="service-icon">D</div>
+                        <h3>Storm Damage Restoration</h3>
+                        <p>Complete storm damage assessment and restoration services. Expert insurance claim assistance with detailed documentation and direct insurer communication.</p>
+                    </div>
+                    <div class="service-card card">
+                        <div class="service-icon">G</div>
+                        <h3>Gutter Systems</h3>
+                        <p>Seamless gutter installation, comprehensive repairs, gutter guard systems, and proper drainage solutions to protect your property investment.</p>
+                    </div>
+                    <div class="service-card card">
+                        <div class="service-icon">C</div>
+                        <h3>Commercial Projects</h3>
+                        <p>Licensed commercial roofing services including flat roof systems, metal roofing solutions, and preventive maintenance programs for business properties.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div id="about" class="page">
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Built on Excellence</h2>
+                    <p>Three decades of unwavering commitment to quality, craftsmanship, and customer satisfaction in North Florida.</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div>
+                        <h3 style="color: var(--dark-gray); margin-bottom: 24px; font-size: 24px;">Our Legacy</h3>
+                        <p style="margin-bottom: 24px; line-height: 1.7; color: var(--medium-gray); font-size: 16px;">
+                            Since 1985, Exterior Specialties has stood as North Florida's beacon of roofing excellence. What began as a commitment to exceptional craftsmanship has evolved into a legacy of trust, quality, and innovation that spans generations of satisfied customers.
+                        </p>
+                        <p style="margin-bottom: 24px; line-height: 1.7; color: var(--medium-gray); font-size: 16px;">
+                            Our achievement of GAF Master Elite President's Club status places us among the top 3% of roofing contractors nationwide. This prestigious certification reflects our unwavering commitment to excellence in materials, installation, and customer satisfaction.
+                        </p>
+                        <p style="line-height: 1.7; color: var(--medium-gray); font-size: 16px;">
+                            We understand that your home represents more than shelter—it's your sanctuary, your investment, your family's future. This understanding drives our meticulous approach to every project, from the smallest repair to the most comprehensive renovation.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--dark-gray); margin-bottom: 24px; font-size: 24px;">Our Promise</h3>
+                        <div class="contact-item">
+                            <h4>GAF Premium Materials Only</h4>
+                            <p>We exclusively use GAF premium roofing materials, ensuring your investment delivers lasting performance with industry-leading warranties.</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Master Elite Craftsmanship</h4>
+                            <p>Our skilled team maintains GAF Master Elite certification through continuous training on the latest techniques and innovations.</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Complete Project Management</h4>
+                            <p>From initial consultation through final inspection, we manage every detail with precision, professionalism, and care.</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Unwavering Standards</h4>
+                            <p>We prioritize transparent communication, property respect, and your absolute satisfaction with every project we complete.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- GALLERY PAGE -->
+    <div id="gallery" class="page">
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Craftsmanship Gallery</h2>
+                    <p>Explore examples of our recent projects throughout North Florida. Each represents our unwavering commitment to GAF Master Elite excellence.</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <strong>GAF Timberline Installation</strong>
+                            <span>Tallahassee, FL</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <strong>Storm Damage Restoration</strong>
+                            <span>Quincy, FL</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <strong>HardieBoard Siding Project</strong>
+                            <span>Havana, FL</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <strong>Commercial Roofing</strong>
+                            <span>Tallahassee, FL</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <strong>Gutter System Installation</strong>
+                            <span>Midway, FL</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <strong>Insurance Restoration</strong>
+                            <span>Gretna, FL</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 60px;">
+                    <p style="color: var(--medium-gray); margin-bottom: 20px; font-size: 16px;">Interested in seeing more of our completed projects?</p>
+                    <a href="#" class="btn btn-accent" data-page="contact">Request Project Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contact" class="page">
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Let's Discuss Your Project</h2>
+                    <p>Ready to experience GAF Master Elite quality? Contact our team for your complimentary consultation and detailed project estimate.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 style="color: var(--dark-gray); margin-bottom: 32px; font-size: 20px;">Connect With Us</h3>
+                        <div class="contact-item">
+                            <h4>Phone</h4>
+                            <p><a href="tel:(850) 556-4663">(850) 556-4663</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Service Territory</h4>
+                            <p>Tallahassee, Quincy, Havana, Midway, Gretna, and all surrounding North Florida communities</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Business Hours</h4>
+                            <p>
+                                Monday - Friday: 7:00 AM - 6:00 PM<br>
+                                Saturday: 8:00 AM - 4:00 PM<br>
+                                Sunday: Emergency calls only
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Professional Credentials</h4>
+                            <p>
+                                GAF Master Elite President's Club<br>
+                                Licensed General Contractor<br>
+                                Fully Bonded & Insured
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Emergency Services</h4>
+                            <p>24/7 emergency response available for storm damage and urgent repairs throughout our service area</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3 style="color: var(--dark-gray); margin-bottom: 24px; font-size: 20px;">Get Your Free Estimate</h3>
+                        <div class="alert success" id="success-alert">
+                            <strong>Message Sent Successfully!</strong> Thank you for contacting us. We'll respond within 24 hours to schedule your consultation.
+                        </div>
+                        <div class="alert error" id="error-alert">
+                            <strong>Message Failed to Send.</strong> Please try again or call us directly at (850) 556-4663.
+                        </div>
+                        <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Property Address</label>
+                                <input type="text" id="address" name="address" placeholder="Street address, city, state">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Required *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Please select a service</option>
+                                    <option value="roof-replacement">Complete Roof Replacement</option>
+                                    <option value="roof-repair">Roof Repair & Maintenance</option>
+                                    <option value="storm-damage">Storm Damage Assessment</option>
+                                    <option value="siding">Siding Installation</option>
+                                    <option value="gutters">Gutter Services</option>
+                                    <option value="commercial">Commercial Project</option>
+                                    <option value="inspection">Property Inspection</option>
+                                    <option value="other">Other Services</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="timeline">Project Timeline</label>
+                                <select id="timeline" name="timeline">
+                                    <option value="">Select preferred timeline</option>
+                                    <option value="immediate">Immediate/Emergency</option>
+                                    <option value="1-2-weeks">Within 1-2 weeks</option>
+                                    <option value="1-month">Within 30 days</option>
+                                    <option value="3-months">Within 90 days</option>
+                                    <option value="planning">Planning phase</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Project Details & Questions</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Please describe your project, specific concerns, or any questions you have for our team..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- BOOKING PAGE -->
+    <div id="booking" class="page">
+        <section class="section calendar-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Schedule Your Consultation</h2>
+                    <p>Book a convenient time for your complimentary property assessment and detailed project estimate. Our GAF Master Elite experts will provide comprehensive evaluation.</p>
+                </div>
+                <div class="calendar-container">
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/REPLACE_WITH_ACTUAL_USERNAME/roof-consultation" style="min-width:320px;height:700px;"></div>
+                    <!-- Calendly inline widget end -->
+                </div>
+                <div style="text-align: center; margin-top: 40px; padding: 32px; background: var(--light-gray); border-radius: var(--border-radius-large);">
+                    <h4 style="color: var(--dark-gray); margin-bottom: 16px;">Prefer to Speak Directly?</h4>
+                    <p style="color: var(--medium-gray); margin-bottom: 20px;">Our friendly team is standing by to answer your questions and schedule your appointment.</p>
+                    <a href="tel:(850) 556-4663" class="btn btn-primary">Call (850) 556-4663</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Exterior Specialties Inc</h4>
+                    <p>North Florida's GAF Master Elite President's Club contractors, delivering uncompromising quality and craftsmanship since 1985.</p>
+                    <p style="margin-top: 20px;"><strong>GAF Master Elite • Licensed • Bonded • Insured</strong></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <a href="#" data-page="services">Complete Roof Systems</a>
+                    <a href="#" data-page="services">Emergency Repairs</a>
+                    <a href="#" data-page="services">Siding Installation</a>
+                    <a href="#" data-page="services">Storm Damage Restoration</a>
+                    <a href="#" data-page="services">Gutter Systems</a>
+                    <a href="#" data-page="services">Commercial Projects</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <a href="tel:(850) 556-4663">Phone: (850) 556-4663</a>
+                    <p>Serving North Florida</p>
+                    <p>Tallahassee & Surrounding Areas</p>
+                    <p>24/7 Emergency Service Available</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Service Areas</h4>
+                    <p>Tallahassee</p>
+                    <p>Quincy</p>
+                    <p>Havana</p>
+                    <p>Midway</p>
+                    <p>Gretna</p>
+                    <p>Gadsden County</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Exterior Specialties Inc. All rights reserved. | GAF Master Elite President's Club | Proudly serving North Florida since 1985</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Calendly JavaScript -->
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Page Navigation System
+            const navLinks = document.querySelectorAll('.nav-link');
+            const pages = document.querySelectorAll('.page');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const navLinksContainer = document.querySelector('.nav-links');
+
+            // Handle navigation
+            function handleNavigation(e) {
+                e.preventDefault();
+                const targetPage = this.getAttribute('data-page');
+                showPage(targetPage);
+                
+                // Update active states
+                navLinks.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Close mobile menu
+                navLinksContainer.classList.remove('active');
+                
+                // Scroll to top smoothly
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
+            // Attach navigation handlers
+            navLinks.forEach(link => {
+                link.addEventListener('click', handleNavigation);
+            });
+
+            // Handle footer and other page links
+            document.querySelectorAll('[data-page]').forEach(link => {
+                if (!link.classList.contains('nav-link')) {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const targetPage = this.getAttribute('data-page');
+                        showPage(targetPage);
+                        
+                        // Update nav active state
+                        navLinks.forEach(l => l.classList.remove('active'));
+                        const matchingNavLink = document.querySelector(`.nav-link[data-page="${targetPage}"]`);
+                        if (matchingNavLink) {
+                            matchingNavLink.classList.add('active');
+                        }
+                        
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    });
+                }
+            });
+
+            function showPage(pageId) {
+                // Hide all pages
+                pages.forEach(page => {
+                    page.classList.remove('active');
+                });
+                
+                // Show target page
+                const targetPage = document.getElementById(pageId);
+                if (targetPage) {
+                    targetPage.classList.add('active');
+                }
+            }
+
+            // Mobile menu toggle
+            mobileMenu.addEventListener('click', function() {
+                navLinksContainer.classList.toggle('active');
+            });
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('nav') && navLinksContainer.classList.contains('active')) {
+                    navLinksContainer.classList.remove('active');
+                }
+            });
+
+            // Form Submission Handler
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const submitButton = this.querySelector('button[type="submit"]');
+                    const originalText = submitButton.textContent;
+                    const successAlert = document.getElementById('success-alert');
+                    const errorAlert = document.getElementById('error-alert');
+                    
+                    // Hide previous alerts
+                    successAlert.classList.remove('show');
+                    errorAlert.classList.remove('show');
+                    
+                    // Show loading state
+                    submitButton.textContent = 'Sending...';
+                    submitButton.disabled = true;
+                    
+                    // Simulate form submission (replace with actual implementation)
+                    setTimeout(() => {
+                        submitButton.textContent = originalText;
+                        submitButton.disabled = false;
+                        successAlert.classList.add('show');
+                        contactForm.reset();
+                    }, 1500);
+                });
+            }
+
+            // Enhanced Header Scroll Effect
+            let lastScrollTop = 0;
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('header');
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop > 100) {
+                    header.style.background = 'rgba(255, 255, 255, 0.95)';
+                    header.style.backdropFilter = 'saturate(180%) blur(20px)';
+                    header.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.1)';
+                } else {
+                    header.style.background = 'rgba(255, 255, 255, 0.8)';
+                    header.style.backdropFilter = 'saturate(180%) blur(20px)';
+                    header.style.boxShadow = 'none';
+                }
+                
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            });
+
+            // Enhanced card hover effects
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+
+            // Loading state for buttons
+            document.querySelectorAll('.btn-primary, .btn-secondary, .btn-accent').forEach(button => {
+                button.addEventListener('click', function(e) {
+                    if (this.getAttribute('href') && this.getAttribute('href').startsWith('tel:')) {
+                        return;
+                    }
+                    
+                    if (!this.classList.contains('loading')) {
+                        this.classList.add('loading');
+                        setTimeout(() => {
+                            this.classList.remove('loading');
+                        }, 300);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
